@@ -1,0 +1,45 @@
+
+RPSLS
+1.  Display welcome message and rules.
+2.  What beats what.
+    a.  Rock crushes Scissors
+    b.  Scissors cuts Paper
+    c.  Paper covers Rock
+    d.  Rock crushes Lizard
+    e.  Lizard poisons Spock
+    f.  Spock smashes Scissors
+    g.  Scissors decapitates Lizard
+    h.  Lizard eats Paper
+    i.  Paper disproves Spock
+    j.  Spock vaporizes Rock
+3.  Ask what game mode and name of players (Validate user responses)
+    a.  Human vs Human
+        1.  Ask how many rounds are to be played (validate only odd numbers)
+    b.  Human vs AI
+        1.  Ask how many rounds are to be played (validate only odd numbers)
+4.  Start game. (minimum of 3 rounds)
+    a. display gesture options
+    b.  If HvH
+        1.  Ask Human player 1 their gesture
+        2.  Ask Human player 2 their gesture
+        3.  Print both gestures
+        4.  Print round winner
+        5.  Keep track of score.
+        6.  Repeat for x game rounds
+    c.  If HvAI
+        1.  Ask Human player 1 their gesture
+        2.  AI chooses random gesture
+        3.  Print both gestures
+        4.  Print round winner
+        6.  Keep track of score.
+        5.  Repeat for x game rounds
+5.  Print game winner, determined by player with highest round win count
+6.  Do you want to play again?
+
+CLASSES
+main.py
+Game
+Player (parent of human and AI)
+Human
+Artificial Intelligence
+ 
